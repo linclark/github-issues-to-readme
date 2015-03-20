@@ -1,0 +1,13 @@
+{
+  "name": "github-issues-to-readme",
+  "version": "1.0.0",
+  "description": "Output GitHub issues to a README.",
+  "author": "Lin Clark",
+  "bin": "cli.js",
+  "license": "WTFPL",
+  "dependencies": {
+    "github": "^0.2.3",
+    "lodash": "^3.5.0",
+    "rc": "^1.0.0"
+  }
+}
