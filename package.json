@@ -6,6 +6,7 @@
   "bin": "cli.js",
   "license": "WTFPL",
   "dependencies": {
+    "extract-github": "0.0.5",
     "github": "^0.2.3",
     "lodash": "^3.5.0",
     "rc": "^1.0.0"
