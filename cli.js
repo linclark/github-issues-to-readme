@@ -22,7 +22,7 @@ function processIssues(err, res) {
   var appendedText = '';
 
   _.each(res, function(n, key) {
-    appendedText += '\n## <a href="' + n.html_url + '">' + n.title + '</a>\n' + n.body
+    appendedText += '\n## <a href="' + n.html_url + '">' + n.title + '</a>\n' + n.body + '\n'
   });
 
   fs.readFile('README.md', function (err, data) {
